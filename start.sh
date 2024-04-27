@@ -43,7 +43,7 @@ while [[ -n $1 ]]; do
   [[ -n $2 ]] || usage "json-rpc-host not specified"
   httpProxyList+=("$1 $2:8899")
   wsProxyList+=("$1 $2:8900")
-  blockexplorerApiProxyList+=("$1 $2:3001")
+  blockexplorerApiProxyList+=("$1 $2:2006")
   shift 2
 done
 
